@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd ">
+
+	<context:component-scan base-package="com.scder.system.*.controller"></context:component-scan>
+	<context:component-scan base-package="com.scder.cszh.*.controller"></context:component-scan>
+	<context:component-scan base-package="com.scder.nydb.*.controller"></context:component-scan>
+	<context:component-scan base-package="com.scder.client.*.controller"></context:component-scan>
+	<mvc:annotation-driven />
+	<mvc:resources location="/resources/" mapping="resources/**" />
+	<mvc:resources location="/jspclient/" mapping="jspclient/**" />
+	<mvc:resources location="/jsphtml/" mapping="jsphtml/**" />
+     <mvc:resources location="/document/" mapping="document/**" />
+    <mvc:resources location="/upload/" mapping="upload/**" />
+	<bean class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping" /><!--AnnotationMethodHandlerAdapter -->
+
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
+		<property name="prefix" value="" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+	<bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">
+		<property name="messageConverters">
+			<list>
+				<ref bean="mappingJacksonHttpMessageConverter" />
+			</list>
+		</property>
+	</bean>
+	<bean id="mappingJacksonHttpMessageConverter" class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter">
+		<property name="supportedMediaTypes">
+			<list>
+				<value>text/html;charset=UTF-8</value>
+			</list>
+		</property>
+	</bean>
+	<bean id="multipartResolver"  class="org.springframework.web.multipart.commons.CommonsMultipartResolver">  
+       <!-- 设置上传文件的最大尺寸为10MB -->  
+		<property name="maxUploadSize">  
+       		<value>104857600</value>  
+		</property>  
+	</bean> 
+	<context:annotation-config />
+</beans>

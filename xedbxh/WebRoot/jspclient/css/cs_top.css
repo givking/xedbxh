@@ -1,0 +1,92 @@
+*{	
+	margin:0;
+	padding:0;
+	font-size:13px;
+	}
+img{
+	border:none;
+	
+	}
+
+a{ 
+	text-decoration:none;
+	}
+
+a:hover{
+	text-decoration:underline;
+	}
+.clear{
+	clear:both;
+	}
+/*header css*/
+#top_bg{
+height:239px;
+width:100%;
+background:url(../image/top_bg.png) repeat-x;}
+#cs_header{
+	height:239px;
+	width:1222px;
+	margin:0 auto;
+	position:relative;
+	background-image:url(../image/header_bg.png);
+	}
+#cs_nav{
+	width:1000px;
+	height:40px;
+	bottom:10px;
+	position:absolute;
+	left:110px;
+	}
+#navigation, #navigation li ul { 
+	list-style-type:none; 
+	} 
+#navigation { 
+	margin:0; padding:0;
+	} 
+#navigation ul{
+	margin:0; padding:0
+	}
+#navigation li { 
+	float:left; 
+	text-align:center; 
+	position:relative; 
+	font-size:14px;
+	font-family:"Microsoft YaHei";
+	} 
+#navigation li a:link, #navigation li a:visited { 
+	display:block; 
+	text-decoration:none;
+	color:#FFFFFF; 
+	height:40px; 
+	line-height:40px;
+	width:100px;
+	} 
+#navigation li ul li{ 
+	background-color:#d9edfc
+	}
+#navigation li ul li a:link, #navigation li ul li a:visited {
+	color:#000000;
+	font-size:12px;
+	}
+#navigation li a:hover { 
+	color:#FFFFFF; 
+	text-decoration:underline;
+	background-color:#F18A67;
+	} 
+#navigation li ul li a:hover { 
+	color:#FFFFFF; 
+	background:#F0574A;
+; 
+	text-decoration:none;
+	} 
+#navigation li ul { 
+	display:none; 
+	position:absolute; 
+	top:38px; 
+	left:0; 
+	margin-top:1px; 
+	width:120px;
+	z-index: 100;
+	} 
+
+/*header css end!*/

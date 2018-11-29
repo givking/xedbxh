@@ -1,0 +1,51 @@
+.list_main{ width:1000px; margin:0 auto; background:#f3f3f3; overflow:hidden}
+.list_location{ width:1000px; height:44px; margin:0 auto; overflow:hidden}
+.t1{ width:21px; height:25px; margin-left:10px; margin-top:8px; float:left; display:block}
+.t2{  margin-left:10px; margin-top:12px; float:left; font-weight:600; display:block}
+.t3{ margin-left:5px; margin-top:12px; float:left; font-weight:600; display:block}
+.list_contain{ width:1000px; margin:0 auto; background:#FFFFFF; overflow:hidden}
+.contain_bd{ width:1000px; margin:0 auto;  overflow:hidden}
+.bd_left{ width:200px;  float:left; margin-left:25px; background:#f5f5f5; overflow:hidden}
+.bd_right{ width:730px;  float:right; margin-right:10px; overflow:hidden}
+.l_nav{ width:200px; height:40px; background:#E41C1C;}
+.l_subnav{ width:200px; height:40px; background: url(../image/sub_shot.png)}
+.r_top{ width:730px; height:50px; border-bottom:solid 1px #333333; overflow:hidden}
+.r_list{ width:730px; margin-top:10px;overflow:hidden}
+.r_list ul{ width:100%; margin:0; padding:0; list-style:none}
+.r_list ul li{ width:730px; height:36px; border-bottom: dashed 1px #333333;margin-top:10px;}
+.list_page{ width:730px; height:60px; float:left; margin-top:10px; overflow:hidden}
+
+
+
+.sel_top{ width:920px; margin:0 auto; overflow:hidden}
+.sel_top_tit{width:920px; height:28px; line-height:28px; font-size:20px; line-height:28px}
+.sel_txt{ width:920px; height:32px; margin-top:20px}
+
+.sel_result{ width:920px; margin-top:30px;overflow:hidden}
+.sel_result ul{ width:100%; margin:0; padding:0; list-style:none}
+.sel_result ul li{ width:920px; height:30px}
+
+
+.mail_main{ width:730px; margin-top:30px; overflow:hidden}
+.mail_top{ width:520px; margin:0 auto;overflow:hidden}
+.mail_foot{ width:520px; height:80px;margin:0 auto; margin-top:30px;overflow:hidden }
+
+
+.content_main{ width:800px; margin:0 auto; overflow:hidden}
+.content_title{width:800px; height:30px; line-height:30px; text-align:center; font-size:20px; font-weight:600}
+.content_foot{ width:800px; overflow:hidden}
+.content_foot_l{ width:380px; height:260px; float: left}
+.content_foot_r{ width:380px; height:260px; float: right}
+
+.foot_l_top{ width:380px; height:60px; border-bottom:solid 1px #999999}
+.foot_l_list{ width:380px; height:198px; margin-top:10px}
+.foot_l_list ul{ width:100%; margin:0; padding:0; list-style:none}
+.foot_l_list ul li{ line-height:22px}
+
+.gb_port_title{ width:702px;height:34px; background-image:url(../image/r_03.png)}
+.gb_port_list{ width:702px; height:160px}
+.gb_port_list ul{ width:100%; margin:0; padding:0; list-style:none}
+.gb_port_list ul li{ float:left; width:680px; height:24px; line-height:24px; margin-left:20px}
+
+
+

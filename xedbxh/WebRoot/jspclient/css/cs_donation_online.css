@@ -1,0 +1,108 @@
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	font:12px "宋体";
+	}
+a{
+	text-decoration:none;
+	}
+
+ul{
+	list-style:none;
+	}
+#cs_don_cont{
+	width:1000px;
+	margin:0 auto;
+	}
+#cs_t{
+	height:14px;
+	width:1000px;
+	margin:0 auto;
+	}
+#cs_t ul{
+	float:right;
+	width:180px;
+	}
+#cs_t ul li{
+	height:14px;
+	float:left;
+	display:block;
+	height:14px;	
+	}
+.f{
+	border-right:solid #999999 1px;
+	margin-right:10px;
+	}
+
+#cs_t ul li a{
+	font-size:12px;
+	color:#8D8D8D;
+	}
+#cs_t ul li a:hover{
+	text-decoration:underline;
+	color:#000000;
+	}
+#titlt_way{
+	height:30px;
+	line-height:30px;
+	color:#E41C1C;
+	font-weight:bold;
+	font-size:14px;
+	}
+#t_nav{
+	height:15px;
+	margin:20px auto;
+	}
+ol{
+	list-style:none;
+	}
+#t_nav li{
+	display:block;
+	float:left;
+	height:15px;
+	line-height:15px;
+	}
+#d_info{
+	height:30px;
+	vertical-align:text-top;
+	color:#008bb6;
+	font-size:14px;
+	border-bottom:solid 2px #CFD2D7;
+	}	
+#d_per{
+	height:30px;
+	vertical-align:text-top;
+	color:#008bb6;
+	font-size:14px;
+	border-bottom:solid 2px #CFD2D7;
+	}
+#c_u{
+	color:#D2560B;
+	font-weight:bold;
+	}
+#btn{
+	width:60px;
+	height:30px;}
+dt{
+text-align:right;
+margin-left:50px;
+	float:left;
+}
+#footer_online{
+	width:1000px;
+	height:50px;
+	margin:0 auto;
+	margin-top:20px;
+	}
+	
+#footer_online ul li{
+	height:20px;
+	line-height:20px;
+	font-size:12px;
+	text-align:center;
+	}
+#f_s{
+	font-size:12px;
+	color:#999999;
+	}

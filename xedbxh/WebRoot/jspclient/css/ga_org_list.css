@@ -1,0 +1,148 @@
+@CHARSET "UTF-8";
+/* 信息展示栏 */
+
+
+#content{
+	width:1000px;
+	height: auto;
+	margin:0 auto;
+	background-color:#fff;	
+	overflow:hidden;
+}
+
+
+
+/*  left  Start */
+#left{
+	width:198px;
+	margin-left: 10px;
+	padding-top: 7px;
+	float: left;
+	margin-bottom: 50px;	
+}
+#left_top{
+	width:198px;
+	height:32px;
+	line-height:32px;
+	background-image: url(../image/index-liebiao_12.png);
+}
+#left_top span{
+	color: #fff;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 30px;
+}
+#left_foot{
+	width:190px;
+	margin-left: 4px;
+	background-image: url(../image/index-liebiao_23.png);
+	overflow:hidden;
+	clear:both;
+}
+#left_foot span{	
+	color: #000;
+	font-size: 15px;
+	margin-left: 30px;	
+}
+#left_foot a{
+	color:#000;
+}
+#left_foot a:hover{
+	color:red;
+}
+
+
+#l_subnav{
+	width:186px;
+	height:28px;
+	margin:0 auto;
+	border-radius:5px;
+	line-height: 28px;
+	margin-top: 4px;
+	background-color: #fff;	
+}
+#l_subnav:hover{
+	width:186px;
+	height:28px;
+	margin:0 auto;
+	border-radius:5px;
+	line-height: 28px;
+	margin-top: 4px;
+	background-image: url(../image/liebiao_sub.png);
+}
+.sub_active{
+	width:186px;
+	height:28px;
+	margin:0 auto;
+	border-radius:5px;
+	line-height: 28px;
+	margin-top: 4px;
+	background-image: url(../image/liebiao_sub.png);
+}
+#left_foot_foot{
+	width:190px;
+	height:27px;
+	background-image: url(../image/index-liebiao_26.png);
+	clear:both;
+}
+/*  left  End */
+
+
+
+
+
+/*  right  Start */
+#right{
+	width:767px;
+	margin-left: 10px;
+	padding-top: 7px;
+	float: left;
+	margin-bottom: 50px;
+}
+#two_left{
+	width:767px;
+	margin:0 auto;
+	border: 1px solid #f1f1f1;
+}
+#two_left_top{
+	width:767px;
+	height:32px;
+	background-image:url(../image/main.png);
+	background-size:767px 32px;
+}
+#two_left_top_left{
+	width:16px;
+	height:32px;
+	float:left;
+	margin-left:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#two_left_top_left_center{
+	width:16px;
+	height:16px;
+	background-image:url(../image/jt.png);
+}
+#two_left_top_right{
+	width:670px;
+	height:32px;
+	line-height:32px;
+	float:left;
+	margin-left:10px;
+}
+#two_left_top_right span{
+	 font-family:MicrosoftYaHei;
+	 font-size:15px;
+	 font-weight:bold;
+}
+#two_left_foot{
+	width:747px;
+	padding-left:10px;
+	padding-right:10px;
+	font-size:13px;
+	margin-top:10px;
+}
+
+
+/*  right  End */

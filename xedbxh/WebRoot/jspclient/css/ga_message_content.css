@@ -1,0 +1,65 @@
+@CHARSET "UTF-8";
+#content{
+	width:1000px;
+	height:650px;
+	margin:auto;
+	padding:0px;
+	background-color:#ffffff;	
+}
+#liuyan_tup{
+	/* background-image:url(../image/liuyan-tup.jpg); */
+	width: 1000px;
+	height: 160px;
+}
+#liuyan_tup img{
+	margin-top: 20px;
+}
+#liuyan_content{
+	height: 400px;
+	margin-top: 40px;
+}
+#liuyan_center{
+	margin: auto;
+	height: 335px;
+	width: 545px;
+}
+.xinhao{
+	color: red;
+}
+.mingcheng{
+	font-family: MicrosoftYaHei;
+	font-size: 14px;
+	color: #00000;
+}
+.xinhao-mingcheng{
+	width: 110px;
+	float: left;
+}
+.liuyan_all{
+	width: 545px;
+	height: 25px;
+	margin-top: 20px;
+}
+.shuru{
+	float: left;
+}
+.shuru input {
+	width: 426px;
+	height: 25px;
+}
+#tijiao{
+	width: 130px;
+	height: 30px;
+	margin: auto;
+	
+}
+.btn{
+	height: 30px;
+	width: 130px;
+	margin-top: 20px;
+	border:0px;
+	color:white;
+	font-size:14px;
+	
+	background-image:url(../image/tijiao.png);
+}	

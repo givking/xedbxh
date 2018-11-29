@@ -1,0 +1,51 @@
+/* CSS Document */
+*{	
+	margin:0;
+	padding:0;
+	font-size:13px;
+	}
+img{
+	border:none;
+	
+	}
+
+a{ 
+	text-decoration:none;
+	}
+
+a:hover{
+	text-decoration:underline;
+	}
+.clear{
+	clear:both;
+}
+
+/*vol_form css*/
+
+#vol_form{
+	width:1000px;
+	margin:10px auto;
+	font:14px SimSun-ExtB; 
+	}
+.per_info{
+	color:#E41C1C;
+	font:16px "Microsoft YaHei";
+	font-weight:bold;
+	border-bottom:solid #E41C1C 1px;
+	margin:20px auto;
+	}
+	.poin{
+	color:#E41C1C;
+	margin-left:10px;
+	 }
+	 .btn1{
+	 margin-right:40px;
+	 height:30px;
+	
+	 }
+	  .btn2{
+	 margin-right:40px;
+	 height:30px;
+	 }
+
+

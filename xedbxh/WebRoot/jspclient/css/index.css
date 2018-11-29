@@ -1,0 +1,95 @@
+.main_body{ width:1000px; margin:0 auto; overflow:hidden}
+.news_scroll{ width:1000px; height:46px; margin:0 auto; background:#FFFFFF}
+.news_scroll_news{ width:700px; height:46px; float:left}
+.news_scroll_sel{width:300px; height:46px; float:right}
+.scroll_news_dv1{width:80px; height:46px; float:left; color:#0099FF; font-size:13px; font-weight:600; line-height:46px; text-align:center}
+.scroll_news_dv2{ width:600px; height:46px; float:left; overflow:hidden}
+.dv2_s{ width:auto; height:46px; float:left; line-height:46px; font-weight:600; margin-left:10px; display:block}
+.scroll_sel_dv1{width:80px; height:46px; float:left; font-weight:600; line-height:46px}
+.scroll_sel_dv2{width:200px; height:46px; float:left}
+.sel_dv2_s1{ width:130px; height:22px; float:left; margin-top:10px; display:block}
+.sel_dv2_s2{width:auto; height:22px; float:left;margin-top:10px; margin-left:12px; display:block}
+
+
+.main_middle{width:1000px;height:316px; margin:0 auto; overflow:hidden}
+.main_middle_l{ width:520px; height:316px; float:left}
+.main_middle_r{ width:480px; height:316px; float:left; background-color:#e2e9f1}
+.middle_r_c{width:450px; height:316px; margin:0 auto}
+.r_c_top{ width:450px; height:22px;}
+.r_c_list{ width:450px; height:280px}
+.r_c_list ul{ width:100%; margin:0; padding:0; list-style:none}
+.r_c_list ul li{ width:450px; height:26px; line-height:26px; font-weight:300}
+.main_content{ width:1000px; margin:0 auto; overflow:hidden}
+.content_top_img{ width:1000px; height:62px}
+.content_list_m{ width:1000px; margin:0 auto; overflow:hidden}
+.list_m_l{ width:700px;  float:left; overflow:hidden}
+.list_m_r{ width:270px;  float:right; overflow:hidden}
+.m_l_t1{ width:700px; height:204px}
+.l_t1_l{ width:340px; height:202px; float:left; border:1px solid #CCCCCC}
+.l_t1_r{ width:340px; height:202px; float:right; border:1px solid #CCCCCC}
+.l_t1_tit{ width:340px; height:38px; background-image:url(../image/list_top.png)}
+.l_t1_list{ width:340px; height:160px;}
+.l_t1_list ul{ width:100%; margin:0; padding:0; margin-top:15px;list-style:none}
+.l_t1_list ul li{ width:340px; height:20px; line-height:20px; margin-top:8px}
+.m_r_top{ width:268px; height:36px; background-image:url(../image/zmes.png)}
+
+.m_r_zwxx{ width:268px; height:202px; border:1px solid #CCCCCC}
+.m_r_list{ width:268px; height:160px;}
+.m_r_list ul{ width:100%; margin:0; padding:0; list-style:none}
+.m_r_list ul li{ width:237px; height:33px; margin-left:15px; background-image:url(../image/zmes_l.png); margin-top:6px}
+
+.bs_main{ width:1000px; margin:0 auto; overflow:hidden}
+.bs_main_l{ width:672px; float:left; overflow:hidden}
+.bs_main_r{width:312px; float:right; overflow:hidden}
+.bs_m_s1{width:672px; height:380px; background-image:url(../image/item_gs.png)}
+.power_main td{ border:1px solid #CCCCCC}
+.m_r_c1{ width:310px; margin:0 auto; border:1px solid #449ae5; overflow:hidden }
+.c1_tit{ width:310px; height:36px; background-image:url(../image/zmes.png); border-bottom:1px solid #449ae5}
+.c1_list{ width:310px; height:140px;}
+.c1_list ul{ width:100%; margin:0; padding:0; list-style:none}
+.c1_list ul li{ width:310px; height:26px; line-height:26px; margin-top:8px}
+
+.bs_m_s2{width:672px; overflow:hidden}
+.s2_main{ width:672px; height:196px}
+.s2_list_l{ width:326px; height:192px; float:left; border:1px solid #3398ff}
+.s2_list_r{ width:326px; height:192px; float:right;border:1px solid #3398ff}
+.s2_list_l_tit{ width:326px; height:30px; background-color:#f2f2f2; border-bottom:1px solid #3398ff}
+.mail_s{ width:68px;height:24px;float:left; background-image:url(../image/mail.jpg); color:#FFFFFF; margin-left:20px; margin-top:6px; text-align:center; line-height:24px}
+.s2_list_c{ width:320px; height:160px}
+.s2_list_c ul{ width:100%; margin:0; padding:0; list-style:none}
+.s2_list_c ul li{ width:326px; height:26px; line-height:22px; margin-top:5px}
+.ask_s{width:68px;height:24px;float:right; background-image:url(../image/mail.jpg); color:#FFFFFF; margin-right:20px; margin-top:6px;
+ text-align:center; line-height:24px}
+.m_r_zt{width:310px; height:239px; margin:0 auto; border:1px solid #449ae5; margin-top:15px; overflow:hidden }
+.zt_list{ width:310xp;height:202px}
+.zt_list ul{ width:100%; margin:0; padding:0; list-style:none}
+.zt_list ul li{ width:238px; height:29px; margin-left:30px; margin-top:18px}
+.friend_url{ width:1000px; height:46px; margin:0 auto; border: solid 1px #999999}
+.friend_url ul{ width:100%; margin:0; padding:0; list-style:none}
+.friend_url ul li{ width:160px; height:46px; float:left}
+
+
+
+
+.topvebanner { margin: 0 auto; width: 1000px; height: 81px; overflow: hidden; }
+.topvebanner ul { margin: 0; padding: 0; }
+#myjQuery { BACKGROUND: #000; OVERFLOW: hidden; WIDTH: 1000px; POSITION: relative; HEIGHT:81px; }
+#myjQueryContent { OVERFLOW: hidden; WIDTH: 1000px; HEIGHT: 81px; }
+#myjQueryContent DIV { POSITION: absolute; HEIGHT: 81px; }
+#myjQueryContent .smask { Z-INDEX: -1; }
+#myjQueryContent IMG { WIDTH: 1000px; HEIGHT: 81px; border: 0; }
+#myjQueryNav { DISPLAY: block; OVERFLOW: hidden; WIDTH: 40px; HEIGHT: 15px; position: absolute; top: 63px; right: 10px; z-index: 5; }
+#myjQueryNav LI { DISPLAY: block; FLOAT: left; WIDTH: 12px; CURSOR: pointer; HEIGHT: 15px; TEXT-ALIGN: center; margin-left: 1px; background: #f53408; color: #fff; }
+#myjQueryNav .nbg { BACKGROUND: #666; }
+#myjQueryNav A { DISPLAY: block; Z-INDEX: 12; MARGIN: 0px auto; TEXT-TRANSFORM: uppercase; WIDTH: 45px; COLOR: #ffffff; LINE-HEIGHT: 22px; POSITION: relative; HEIGHT: 22px; z-index: 20; }
+#myjQueryNav .current { BACKGROUND: #000000; }
+#myjQueryNav .current A { COLOR: #fff; }
+
+
+
+
+
+
+
+
+
